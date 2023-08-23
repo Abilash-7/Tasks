@@ -83,3 +83,40 @@ li a:hover::after{
     background: #fff;
     color: black;
 }
+
+
+@media (max-width: 600px)
+{
+body
+{
+    background-image: url(fashion1.jpg);
+    background-size: cover;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+} 
+.container h1{
+    text-align: center;
+}
+nav ul li {
+    display: inline;
+    margin-left: -20px;
+}
+ul li a{
+    font-size: 10px;
+}
+.content{
+    text-align: left;
+    margin-top: 60px;
+}
+.content p{
+    font-size: 10px;
+}
+.content h1{
+    font-size: 40px;
+}
+.btn{
+    font-size: 10px;
+}
+}
