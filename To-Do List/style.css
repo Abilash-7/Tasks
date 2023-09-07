@@ -121,7 +121,7 @@ ul li span:hover{
 .app{
     width: 400px;
     margin: auto;
-    margin-top: 150px;
+    margin-top: 10px;
     margin-bottom: 100px;
 }
 #error{
