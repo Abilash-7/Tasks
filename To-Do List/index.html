@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do-List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <p id="error">Task Field cannot be Empty !!!</p>
+        <div class="app">
+            <h1>To-Do List</h1>
+            <div class="wrapper">
+                <input type="text" id="input" placeholder="Enter the task to done...">
+                <button class="btn" onclick="addTask();">Add</button>
+            </div>  
+            <p class="pending-task">you have <span id="pending">0</span> task(s) to complete.</p>
+            <ul id="list-container">
+                <!-- <li class="checked">task1</li>
+                <li>task1</li>
+                <li>task1</li> -->
+            </ul>  
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
