@@ -1,0 +1,54 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+.product_img
+{
+    width: 250px;
+    height: 300px;
+}
+.card_details{
+    margin-top: 20px;
+}
+.pagination {
+    font-size: 12px;
+}
+.pagination input,button{
+    width: 40px;
+    text-align: center;
+}
+.card-title{
+    font-size: 15px;
+}
+.price{
+    margin-top: 30px;
+}
+.rupees{
+    margin-top: -5px;
+}
+.check{
+    width: 120px;
+    font-size: 12px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+}
+.check:hover{
+    background: red;
+    border: none;
+}
+.apply{
+    width: 120px;
+    font-size: 14px;
+    padding: 8px;
+    border-radius: 10px;
+    border: none;
+    margin-left: 70px;
+}
+.apply:hover{
+    background: red;
+    border: none;
+}
