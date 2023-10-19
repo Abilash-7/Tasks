@@ -1,0 +1,20 @@
+{
+  "users": [
+    {
+      "firstname": "abi",
+      "surname": "lash",
+      "id": "abi@gmail.com",
+      "password": "12345"
+    }
+  ],
+  "post": [
+    {
+      "text": "hello",
+      "id": 1
+    },
+    {
+      "text": "hello everyone ",
+      "id": 2
+    }
+  ]
+}

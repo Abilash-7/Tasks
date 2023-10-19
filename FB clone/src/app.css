@@ -1,0 +1,110 @@
+.search_box{
+    background: transparent;
+    border: 0;
+}
+.search_container input{
+    outline: none;
+}
+.search_container{
+    background-color: rgb(234, 234, 234);
+    border-radius: 20px;
+}
+html{
+    background: rgb(234, 234, 234);
+}
+body{
+    background: transparent;
+}
+.icon_back{
+   background: rgb(234, 234, 234);
+}
+.msg div:hover{
+background: rgb(215, 215, 215);
+}
+.icon_backdark{
+    background: rgb(212, 212, 212);
+}
+.curser{
+    cursor: pointer;
+}
+.header .menu div{
+    color: black;
+}
+.header .menu div:hover{
+    border-bottom: 2px solid rgb(24, 163, 238);
+    color: rgb(24, 163, 238);
+}
+/* content left */
+.content_left{
+    overflow: hidden;
+    position: fixed;
+}
+.content_left div{
+cursor: pointer;
+align-items: center;
+padding: 0px 20px;
+border-radius: 5px;
+}
+.content_left div:hover{
+background: rgb(215, 215, 215);
+}
+
+/* main */
+/* stories */
+.main .story{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.main .story_card{
+    width: 120px;
+    height: 250px;
+    border:1px solid;
+}
+.main .story_card img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.main .story_card .story_profile{
+    margin-top: -250px;
+}
+/* new story */
+.main .new_story .add_icon{
+background:  rgb(208, 238, 247);
+}
+/* new Post  */
+.main .new_post .text_input input{
+    background: rgb(234, 234, 234);
+    border-radius: 20px;
+}
+.main .new_post .file_post div:hover{
+    background: rgb(234, 234, 234);
+}
+.grey{
+   background : rgb(234, 234, 234);
+}
+.hover:hover{
+    background: rgb(234, 234, 234);
+}
+.link:hover{
+    color: black;
+}
+.link{
+    text-decoration: none;
+    color: black;
+}
+/* posts */
+.main .posts .post-title{
+    border-left: 3px solid rgb(200, 200, 200);
+    font-weight: 700;
+}
+.main .posts .button div:hover{
+    background: rgb(234, 234, 234);
+}
+
+/* content right */
+.content_right{
+    position: fixed;
+}
