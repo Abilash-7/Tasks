@@ -1,0 +1,32 @@
+ @import url('https://fonts.googleapis.com/css2?family=Kanit&family=Merriweather&family=Mulish:wght@300&family=Open+Sans&family=Poppins:wght@400;500;600;700&display=swap');
+
+/* app */
+.app{
+    background: linear-gradient(340deg, #ffdee9, #b5fffc  );
+    height: 120vh;
+}
+.app .header h2{
+    font-family: 'Kanit', sans-serif;
+font-family: 'Merriweather', serif;
+font-family: 'Mulish', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-weight: 600;
+color: #333;
+}
+/* form */
+.form{
+    /* background: linear-gradient(145deg, #f7dde2, #fc99ba); */
+    background-color: white;
+    border-radius: 0 0 20px 20px ;
+}
+.stepper{
+    border-radius: 20px 20px 0 0 ;
+    background-color: #fbaec8;
+}
+.header h2{
+    color: #000;
+    font-size: 2.5em;
+    font-weight:600;
+    text-shadow: 3px 5px 5px #999;
+}

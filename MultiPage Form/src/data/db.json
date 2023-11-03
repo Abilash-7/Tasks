@@ -1,0 +1,28 @@
+{
+  "users": [
+    {
+      "fname": "abi",
+      "lname": "lash",
+      "email": "abi@gmail.ocm",
+      "ph_no": "123456",
+      "address": "23,samiord",
+      "city": "ch",
+      "state": "tn",
+      "university": "new college",
+      "passyear": "2023",
+      "course": "be",
+      "dept": "cs",
+      "arrear": "0",
+      "company": "senchole",
+      "exptype": "intern",
+      "duration": "4",
+      "skills": "java script",
+      "industype": "it",
+      "location": "ch",
+      "jobtype": "remote",
+      "expectsalary": "23456745",
+      "agreed": false,
+      "id": 1
+    }
+  ]
+}
